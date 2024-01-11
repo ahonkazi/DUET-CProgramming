@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 int main(int argc, char const *argv[])
 {
     int n, i;
@@ -18,8 +19,9 @@ int main(int argc, char const *argv[])
             break;
         }
     }
+
     average = sum / (i - 1);
-    printf("Average = %f\n", average);
-    printf("Sum = %f\n", sum);
+    printf("Average = %.2f\n", average);
+    printf("Sum = %.2f\n", sum);
     return 0;
 }
